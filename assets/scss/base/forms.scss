@@ -1,0 +1,37 @@
+/* input */
+
+::-webkit-input-placeholder { 
+  color: rgba(0,0,0,0.5);
+  font-weight: $normal;
+}
+::-ms-input-placeholder {
+  color: rgba(0,0,0,0.5);
+  font-weight: $normal;
+}
+::-moz-placeholder {
+  color: rgba(0,0,0,0.5);
+  font-weight: $normal;
+}
+:-moz-placeholder { 
+  color: rgba(0,0,0,0.5);
+  font-weight: $normal;
+}
+
+/* General styles */
+
+.input {
+  display: block;
+  position: relative;
+  padding: 0 1.5em;
+  border: none;
+  border-radius: 3px;
+  margin: 0;
+  font-weight: $normal;
+  @include transition(background 0.2s ease-in-out);
+  background: #efefef;
+
+  &:focus {
+    background: #fff;
+  }
+}
+

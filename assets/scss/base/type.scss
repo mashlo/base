@@ -1,0 +1,28 @@
+html {
+  font-family: $mainFontFamily;
+  font-weight: normal;
+  font-weight: $normal;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  line-height: 1.73;
+}
+
+h1, h2, h3, h4, h5, nav {
+  font-family: $mainFontFamily;
+  font-weight: $medium;
+  line-height: 1.2;
+  -webkit-font-smoothing: antialiased;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.14rem;
+  line-height: 1.73;
+  margin: 0 0 3em;
+}
+
+strong { font-weight: $bold; }
+
